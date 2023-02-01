@@ -1,11 +1,9 @@
 {
-  "include": [
-    "src/**/*.ts"
-  ],
+  "include": ["src/**/*.ts"],
   "compilerOptions": {
-    "module": "CommonJS",
+    "module": "commonjs",
+    "target": "es2020",
     "outDir": "./dist",
-    "target": "ES2020",
     "sourceMap": true,
     "baseUrl": ".",
     "esModuleInterop": true,
