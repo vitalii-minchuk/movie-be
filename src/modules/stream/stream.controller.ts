@@ -5,11 +5,11 @@ import { StreamRequest, ErrorWithStatus } from './stream.interfaces'
 const router = Router()
 const client = new WebTorrent()
 
-let state = {
-  progress: 0,
-  downloadSpeed: 0,
-  ratio: 0
-}
+// let state = {
+//   progress: 0,
+//   downloadSpeed: 0,
+//   ratio: 0
+// }
 
 let error = ""
 
