@@ -1,5 +1,5 @@
 {
-  "name": "movieology",
+  "name": "movie",
   "version": "0.0.1",
   "description": "P2P video service",
   "main": "index.js",
@@ -13,7 +13,7 @@
     "stream",
     "fun"
   ],
-  "author": "Ararat Martirossyan",
+  "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^18.7.19",
@@ -29,7 +29,7 @@
     "cheerio": "^1.0.0-rc.12",
     "cors": "^2.8.5",
     "express": "^4.18.1",
-    "mongoose": "^6.6.7",
+    "mongoose": "^6.8.4",
     "morgan": "^1.10.0",
     "qs": "^6.11.0",
     "webtorrent": "^1.8.30"

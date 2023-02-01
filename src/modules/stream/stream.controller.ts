@@ -29,7 +29,6 @@ client.on('torrent', () => {
 
 router.get('/add/:magnet', (req: Request, res: Response) => {
   const magnet = req.params.magnet
-
   client.add(magnet, torrent => {
     const files = torrent.files.map(data => ({
       name: data.name,
