@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "nodemon",
     "build": "tsc",
-    "start": "node dist"
+    "start": "node dist",
+    "test": "tsc && node ./dist/test.js"
   },
   "keywords": [
     "video",
